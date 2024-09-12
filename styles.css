@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(to bottom right, #c09cff, #c267e6, #4f59b8);
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}
+
+.quiz-title {
+    font-size: 2.5em;
+    color: black;
+    font-family: 'Kaushan Script', cursive;
+    text-shadow: 5px 0px 5px #000000;
+}
+
+.quiz-container {
+    background: linear-gradient(to bottom right, #7685e3, #3d5594, #5990ba);
+    border: 2px solid black;
+}
+
+.question {
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: left;
+    color: white;
+    font-size: 27px;
+    font-family: 'Gochi Hand', cursive;
+}
+
+.answers label {
+    display: block;
+    background: #ecf0f1;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.answers label:hover {
+    background: #bdc3c7;
+}
+
+#results {
+    font-size: 1.2em;
+    color: #27ae60;
+}
+
+.correct {
+    color: green;
+}
+
+.incorrect {
+    color: red;
+}
